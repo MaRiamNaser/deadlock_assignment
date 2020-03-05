@@ -1,0 +1,72 @@
+git -> version control syste
+free and open source
+github uses git
+you can use git without github
+git has gui
+
+
+why learn git ?
+-devs contribute to the same project
+-you can revert changes
+-you can collaborate to fix issues
+-you can collaborate to create new features
+-you can solve conflicts
+-you can organize featrues
+
+repository(repo):مستودع
+branch:repoفرع من ال
+local repo:pc
+remote repo:github , server of company
+commit : checkpoint in your local repo
+clone : clone from repo
+push : upload local changes to remote repo
+pull : pull changes from remote repo to local
+pull request:tell admin to take your changes when you and not in the team and you forked the repo
+
+important notes:
+-create repository for every project
+-create a new branch for every feature or enhancement
+-no need to connect to remote repo when working
+-anyine can push and pull depend on permissions
+
+
+
+
+what we learned :
+making repo
+cloning the repo (git clone "link")->download the repo into the device
+
+(git status)-> بتديلك الحالة بتاعتك
+(git branch)-> بتقولك انت عندك كام فرع بالظبط
+(git remote -v)-> بيديلك الremote
+
+from me to github(update):
+(git add *->git commit -m"message"->git push "remoteName" "branchName")
+(<-----------git reset head *)
+
+from github to me(update):
+(git pull "remoteName")
+
+
+
+branchs:
+#make new branch -> git branch "branch name"
+#switch the branch -> git checkout "branch name"
+#delete branch -> git branch -d "branch name"
+#rename branch -> git branch -m "branch name"
+#merge branch -> git merge "branch name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
